@@ -47,7 +47,7 @@ color:white;
 background-color:black;
 padding:2rem 3rem;
 position:relative;
-right:15rem;
+right:23%;
 top: 2rem;
 }
 .banner_text h4 {
@@ -56,5 +56,48 @@ top: 2rem;
 }
 .banner_text h2 {
   font-size:2rem;
+  margin:0;
+}
+/* NAV BANNER */
+.navbar {
+  background-color:firebrick;
+}
+.navbar nav{
+  display:flex;
+  justify-content:space-around;
+  padding:0.75rem 0;
+}
+a {
+  text-decoration:none;
+  color:white;
+}
+a:hover {
+  color:cyan;
+}
+/* PRODUCTS IN MAIN */
+.gadgets {
+  display:flex;
+  justify-content:space-around;
+  margin-top:3rem;
+}
+.product {
+  width:30%;
+}
+.product_img {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:9rem;
+  padding:2rem 0;
+  border:4px solid black;
+}
+.product_img img {
+  max-width:8rem;
+}
+.product p {
+  background-color:black;
+  color:white;
+  Text-align:center;
+  padding:0.5rem 0;
   margin:0;
 }
