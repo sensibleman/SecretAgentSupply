@@ -6,6 +6,7 @@ html {
 body {
   margin:0;
 }
+/* BANNER SECTION */
 .banner_top {
   display:flex;
   background-color: black;
@@ -25,4 +26,35 @@ body {
   width:auto;
   padding: 0.5rem;
   margin-left:10%;
+}
+/* MAIN BANNER */
+header {
+  display:flex;
+  background-image:url(images/moto_background.jpeg);
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:25rem;
+  max-width:100%;
+  justify-content:center;
+  margin:0;
+  align-items:center;
+
+}
+.banner_text {
+width:20rem;
+color:white;
+background-color:black;
+padding:2rem 3rem;
+position:relative;
+right:15rem;
+top: 2rem;
+}
+.banner_text h4 {
+  font-size:1rem;
+  margin:0.25rem auto;
+}
+.banner_text h2 {
+  font-size:2rem;
+  margin:0;
 }
