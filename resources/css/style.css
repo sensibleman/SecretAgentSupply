@@ -1,0 +1,28 @@
+html {
+  font-size:18px;
+  font-family:Helvetica, sans-serif;
+
+}
+body {
+  margin:0;
+}
+.banner_top {
+  display:flex;
+  background-color: black;
+  font-size:1rem;
+  color:white;
+  align-items:center;
+  width:100%;
+  height:auto;
+  margin:0;
+}
+.banner_top h1 {
+  font-size:1rem;
+  margin: 0.66rem 0.5rem;
+}
+.banner_top img {
+  height:1.5rem;
+  width:auto;
+  padding: 0.5rem;
+  margin-left:10%;
+}
