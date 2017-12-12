@@ -116,3 +116,15 @@ a:hover {
   margin:0 0;
   width:35%;
 }
+/*FOOTER SECTION*/
+footer {
+  display:flex;
+  align-items:center;
+  justify-content:left;
+  height:5rem;
+  background-color:black;
+}
+.copyright {
+  color:white;
+  margin-left:10%;
+}
