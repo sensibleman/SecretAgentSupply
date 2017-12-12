@@ -49,6 +49,7 @@ padding:2rem 3rem;
 position:relative;
 right:23%;
 top: 2rem;
+margin-left:18%;
 }
 .banner_text h4 {
   font-size:1rem;
@@ -127,4 +128,77 @@ footer {
 .copyright {
   color:white;
   margin-left:10%;
+}
+/*MEDIA QUERY FOR WIDTH <1024px */
+@media only screen and (max-width:1024px){
+  #glasses {
+    display:none;
+  }
+  .product {
+    width:47%;
+  }
+  .laptop{
+    display:none;
+  }
+  .mobile {
+  }
+}
+/*MEDIA QUERY FOR WIDTH >1024 */
+
+@media only screen and (min-width:1024px){
+  .mobile{
+    display:none;
+  }
+}
+/* MEDIA QUERY FOR PHONE SCREENS <470px */
+
+@media only screen and (max-width:470px){
+  .banner_text {
+  width:100%;
+  color:white;
+  background-color:black;
+  padding:1rem 2rem;
+  position:relative;
+  top: 2rem;
+  margin-left:0%;
+  right:0;
+  }
+
+  header {
+    display:flex;
+    background-image:url(images/moto_background.jpeg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:15rem;
+    max-width:100%;
+    justify-content:center;
+    margin:0;
+    align-items:flex-end;
+
+  }
+  .product.watch{
+    display:none;
+  }
+  .product {
+    width:90%;
+  }
+  .hours_location{
+    display:flex;
+    flex-direction:column;
+  }
+  .section {
+    width:90%;
+  }
+  .section span {
+    text-align:center;
+  }
+  footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .banner_text h2 {
+    font-size:1.5rem;
+  }
 }
